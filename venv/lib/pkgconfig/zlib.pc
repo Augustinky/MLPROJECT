@@ -1,0 +1,13 @@
+prefix=/Users/augustinaugustin/MLproject/venv
+exec_prefix=/Users/augustinaugustin/MLproject/venv
+libdir=/Users/augustinaugustin/MLproject/venv/lib
+sharedlibdir=/Users/augustinaugustin/MLproject/venv/lib
+includedir=/Users/augustinaugustin/MLproject/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
