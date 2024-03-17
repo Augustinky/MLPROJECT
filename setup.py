@@ -22,7 +22,7 @@ setup(
      author='k_tutor',
      author_email='kwilu6@gmail.com',
      packages=find_packages(),
-     install_requires=get_requirements('requirements.txt') #['pandas', 'numpy', 'seasborn']
+     install_requires=get_requirements('requirements.txt') # =['pandas', 'numpy', 'seasborn'] # -e. #  -e .
 
 
 )
